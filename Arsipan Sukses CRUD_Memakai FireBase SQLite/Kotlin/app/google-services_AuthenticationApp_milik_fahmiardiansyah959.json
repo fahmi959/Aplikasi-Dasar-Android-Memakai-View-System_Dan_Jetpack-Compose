@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "47552113312",
+    "project_id": "authenticationapp-dbd2b",
+    "storage_bucket": "authenticationapp-dbd2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47552113312:android:6e3bbad1fc71831b44b7c5",
+        "android_client_info": {
+          "package_name": "com.fahmi.FahmiAppStory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47552113312-68igfi6npddcs2lu8j75cp576is5a317.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHf7mFlifDvaRpDMYbH6bBqfg0P7G7P-Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47552113312-68igfi6npddcs2lu8j75cp576is5a317.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

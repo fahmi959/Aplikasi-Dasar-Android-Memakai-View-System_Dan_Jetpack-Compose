@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DaftarActivity"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/teksview_daftar_judul"
+        style="@style/Judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/daftar_judul"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/teksview_daftar_sub_judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/daftar_sub_judul"
+        style="@style/Sub_judul"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teksview_daftar_judul"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/nama_lengkap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:hint="@string/daftar_namalengkap"
+        style="@style/TeksInputLayout"
+        app:startIconDrawable="@drawable/ikon_akun"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teksview_daftar_sub_judul">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_teks_namalengkap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TeksInputEditText"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="@string/daftar_email"
+        style="@style/TeksInputLayout"
+        app:startIconDrawable="@drawable/ikon_email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nama_lengkap">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_teks_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TeksInputEditText"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="@string/username"
+        style="@style/TeksInputLayout"
+        app:startIconDrawable="@drawable/ikon_bunder_akun"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/input_email">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_teks_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/TeksInputEditText"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+<com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/sandi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="@string/sandi"
+        style="@style/TeksInputLayout"
+        app:startIconDrawable="@drawable/ikon_gembok"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_teks_sandi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            style="@style/TeksInputEditText"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ulang_sandi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="@string/ulang_sandi"
+        style="@style/TeksInputLayout"
+        app:startIconDrawable="@drawable/ikon_gembok"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sandi">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_teks_ulangsandi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            style="@style/TeksInputEditText"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/tombol_daftar"
+        style="@style/WarnaTombol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/btn_daftar"
+        app:layout_constraintBottom_toTopOf="@id/punya_akun"
+        app:layout_constraintEnd_toEndOf="@+id/punya_akun"
+        app:layout_constraintStart_toStartOf="@+id/punya_akun"
+        app:layout_constraintTop_toBottomOf="@+id/ulang_sandi" />
+
+
+    <TextView
+        android:id="@+id/punya_akun"
+        style="@style/Sub_judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sudah_punya_akun"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

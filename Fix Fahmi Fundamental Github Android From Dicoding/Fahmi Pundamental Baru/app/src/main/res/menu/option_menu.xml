@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <group android:menuCategory="container">
+
+
+        <item android:id="@+id/cari_pengguna"
+            android:title="Favorite"
+            android:icon = "@drawable/ikon_pencarian"
+            app:actionViewClass="androidx.appcompat.widget.SearchView"
+            app:showAsAction="collapseActionView|always" />
+
+        <item android:id="@+id/penampung_favorite"
+            android:title="Favorite"
+            android:icon = "@drawable/penampung_favorite"
+            app:showAsAction="always" />
+
+        <item android:id="@+id/settingan"
+            android:title="Ubah Tema"
+            android:icon = "@drawable/rounded_button"
+            app:showAsAction="always"/>
+
+    </group>
+
+
+
+
+</menu>

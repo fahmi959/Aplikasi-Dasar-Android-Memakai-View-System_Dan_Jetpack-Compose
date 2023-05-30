@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="description">DESCRIPTION</string>
+    <string name="actionbar_detailactivity">Detail Pengguna Github</string>
+    <string name="heroes_name">HEROES NAME</string>
+    <string name="pencarian">Cari Pengguna……</string>
+    <string name="settingan">Settingan</string>
+    <string name="ubahtema">UbahTema</string>
+    <string name="this_fragment">Ini adalah menu fragment</string>
+    <string name="dark_mode">Tema Gelap</string>
+
+
+    <string name="tab_text_1">Followers</string>
+    <string name="tab_text_2">Following</string>
+    <string name="tab_text_3">Home</string>
+    <string name="content_tab_home">Welcome Home</string>
+    <string name="content_tab_profile">Change your Profile here</string>
+    <string name="content_tab_text">This is Tab %1$d</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="title">Title</string>
+    <string name="published_date">Published Date</string>
+    <string name="save_bookmark">Save Bookmark?</string>
+    <string name="home">Home</string>
+</resources>

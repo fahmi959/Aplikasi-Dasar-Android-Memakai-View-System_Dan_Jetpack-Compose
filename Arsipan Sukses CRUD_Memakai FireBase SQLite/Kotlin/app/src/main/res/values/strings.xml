@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">FahmiAppStory</string>
+    <string name="mulai_judul">Halo Kamu!</string>
+    <string name="mulai_sub_judul">Semoga harimu menyenangkan, mari bergabung di komunitas kami!
+
+        <br><b>Masuk</b> jika kamu sudah siap memiliki akun.</br>
+        <br><b>Daftar</b> untuk dapat memulai dengan aplikasi ini</br>
+    </string>
+    <string name="btn_daftar">DAFTAR</string>
+    <string name="btn_masuk">MASUK</string>
+    <string name="masuk_judul">Masuk ke aplikasi</string>
+    <string name="masuk_sub_judul">
+        <font color="#FFEB00"><b>Masuk</b></font> jika kamu telah memiliki akun.
+    </string>
+    <string name="masuk_email">email atau username</string>
+    <string name="lupa_sandi">Lupas Sandi?</string>
+
+    <string name="tidak_punya_akun">
+        Saya tidak memiliki akun? <font color="#ECC82B"><b>Daftar</b></font>
+    </string>
+    <string name="daftar_judul">Buat akun</string>
+    <string name="daftar_sub_judul">
+        <font color="#FFEB00"><b>Daftar</b></font> untuk dapat memulai dengan aplikasi.
+    </string>
+    <string name="daftar_namalengkap">Nama lengkap</string>
+    <string name="daftar_email">Email</string>
+    <string name="username">Username</string>
+    <string name="sandi">Sandi</string>
+    <string name="ulang_sandi">Ulang sandi</string>
+
+    <string name="sudah_punya_akun">
+        Saya sudah memiliki akun? <font color="#ECC82B"><b>Masuk</b></font>
+    </string>
+    <string name="home_judul">JUDUL HOME !!</string>
+    <string name="home_sub_judul">Selamat datang di home</string>
+    <string name="tombol_logout">LOGOUT</string>
+    <string name="lupa_sandi_title">Mengatur ulang sandi anda</string>
+    <string name="lupa_sandi_subtitle">
+        <font color="#FFEB00">Atur ulang sandi</font>
+        jika anda lupa dengan sandi anda.
+    </string>
+    <string name="tombol_lupa_sandi">UBAH SANDI</string>
+
+    <string name="kembali_masuk">
+        Kembali ke halaman <font color="#ECC82B"><b>Masuk</b></font>
+    </string>
+
+
+    <string name="title">Judul</string>
+    <string name="description">Deskripsi</string>
+    <string name="submit">Submit</string>
+    <string name="delete">Hapus</string>
+    <string name="date">Date</string>
+
+    <string name="nama">Nama Lengkap</string>
+    <string name="model_foto_url">Model Foto</string>
+    <string name="upload">Upload Gambar</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Kamera</string>
+</resources>

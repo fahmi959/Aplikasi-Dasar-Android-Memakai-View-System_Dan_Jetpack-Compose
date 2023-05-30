@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFahmiActivity"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/home_judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/home_judul"
+      android:textAlignment="center"
+        style="@style/Judul"/>
+
+    <TextView
+        android:id="@+id/home_sub_judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/home_sub_judul"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        style="@style/Sub_judul"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/tombol_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/tombol_logout"
+        style="@style/WarnaTombol"/>
+
+
+
+
+
+</LinearLayout>

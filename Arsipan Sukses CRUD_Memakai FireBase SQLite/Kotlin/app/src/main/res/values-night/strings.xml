@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mulai_judul">Hello World!</string>
+    <string name="btn_daftar">DAFTAR</string>
+    <string name="btn_masuk">MASUK</string>
+    <string name="masuk_judul">Masuk ke aplikasi</string>
+    <string name="masuk_email">email atau username</string>
+    <string name="daftar_judul">Buat akun</string>
+    <string name="daftar_namalengkap">Nama lengkap</string>
+    <string name="sandi">Sandi</string>
+    <string name="ulang_sandi">Ulang sandi</string>
+    <string name="home_judul">Hello World!</string>
+    <string name="home_sub_judul">Selamat datang di home</string>
+    <string name="tombol_logout">LOGOUT</string>
+    <string name="lupa_sandi_title">Mengatur ulang sandi anda</string>
+    <string name="lupa_sandi_subtitle">Atur ulang sandi</string>
+    <string name="tombol_lupa_sandi">UBAH SANDI</string>
+
+
+
+    <string name="title">Judul</string>
+    <string name="description">Deskripsi</string>
+    <string name="submit">Submit</string>
+    <string name="delete">Hapus</string>
+    <string name="date">Date</string>
+    <string name="upload">Upload Gambar</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Kamera</string>
+</resources>
